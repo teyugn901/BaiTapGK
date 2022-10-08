@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/i">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+
+
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+
+            android:background="@drawable/profile_bgr"
+            android:padding="20dp"
+            android:backgroundTint="">
+
+            <ImageView
+                android:id="@+id/Profile_Icon"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="50dp"
+                android:src="@drawable/img_5" />
+
+
+            <TextView
+                android:id="@+id/follower"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_toRightOf="@+id/Profile_Icon"
+                android:fontFamily="@font/alex_brush"
+                android:text="Sliver member"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+        <TextView
+
+            android:layout_width="150dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/Profile_Icon"
+            android:fontFamily="@font/allan"
+            android:text="ntng.09"
+            android:textAlignment="center"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="-20dp"
+            />
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Full Name">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/profile_usernameicon"
+                    android:drawablePadding="10dp"
+                    android:text="Nguyen Le Thao Nguyet"
+                    android:background="@drawable/profile_border_textfield"
+
+                    />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Student ID">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/profile_idicon"
+                    android:drawablePadding="10dp"
+                    android:text="2050531200239"
+                    android:background="@drawable/profile_border_textfield"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="E-mail">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/profile_emailicon"
+                    android:drawablePadding="10dp"
+                    android:text="thaonguyet02vn@gmai.com"
+                    android:background="@drawable/profile_border_textfield"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:hint="Phone">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/profile_phoneicon"
+                    android:drawablePadding="10dp"
+                    android:text="0855176557"
+                    android:background="@drawable/profile_border_textfield"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:backgroundTint="#339955"
+                android:text="Next"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginLeft="250dp"
+                android:layout_marginTop="10dp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</ScrollView>
